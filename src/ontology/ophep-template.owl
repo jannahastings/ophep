@@ -1,0 +1,766 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://purl.obolibrary.org/obo/OPHEP.owl#"
+     xml:base="http://purl.obolibrary.org/obo/OPHEP.owl"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/OPHEP.owl"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000115 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000118 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000118"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000119 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000119"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPHEP_disturbance_of -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/OPHEP_disturbance_of">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disturbance of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MFOMD_0000024 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MFOMD_0000024"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MF_0000017 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MF_0000017"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MF_0000067 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MF_0000067"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MF_0000072 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MF_0000072"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MF_0000078 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MF_0000078"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/MF_0000079 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/MF_0000079"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPHEP_000001 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPHEP_000001">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/MFOMD_0000024"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OPHEP_disturbance_of"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MF_0000017"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A disturbance of phenomenological experience</obo:IAO_0000115>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">core disturbance</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPHEP_000002 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPHEP_000002">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPHEP_000001"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OPHEP_disturbance_of"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MF_0000067"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A disturbance of the experiential sense of being a vital and self-identical subject of experience (sense of &quot;self-sameness&quot;).</obo:IAO_0000115>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ichstörung</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disturbance in myness</obo:IAO_0000118>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sass, LA and Parnas, J (2003). Schizophrenia, Consciouness, and the Self. Schizophrenia Bulletin, vol. 29, No. 3.</obo:IAO_0000119>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sass and Parnas (2003) discussed the generative trace of schizophrenia as a &quot;ipseity-disturbance model&quot;. Described in three essential aspects: 1) Hiperreflexivity 2) Diminished-self-presence and 3) Disturbed grip of cognitive-perceptual world</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disturbance of ipseity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPHEP_000003 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPHEP_000003">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPHEP_000001"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OPHEP_disturbance_of"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MF_0000017"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">epiphenomenal subjective experience</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPHEP_000004 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPHEP_000004">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPHEP_000003"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OPHEP_disturbance_of"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MF_0000067"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An exaggerated self-consciousness in which the subject experiences itself as a kind of external object.</obo:IAO_0000115>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sass, LA and Parnas, J (2003). Schizophrenia, Consciouness, and the Self. Schizophrenia Bulletin, vol. 29, No. 3.</obo:IAO_0000119>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">For Sass and Parnas (2003), hiperreflexivity is one of the main aspects of schizophrenia - the other being a diminished self-presence.</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">hyperreflexivity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPHEP_000005 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPHEP_000005">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPHEP_000003"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OPHEP_disturbance_of"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MF_0000067"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Decline of the unmediated feeling of being an embodied consciousness, subject of awareness and agency (of existing in the first-person perspective).</obo:IAO_0000115>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">diminished myness</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">diminished self-affection</obo:IAO_0000118>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sass, L.A. (2018). The Life-World of Persons with Schizophrenia Considered as a Disorder of Basic Self). In: The Oxford Handbook of Phenomenological Psychopathology. Edited by: Stanghellini et al. Oxford Press.</obo:IAO_0000119>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Self-affection is always prereflective. For Sass and Parnas (2003), schizophrenia is characterized by, at the same time, a hiperreflexivity and a diminished self-presence (or self-affection).</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">diminished self-presence</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPHEP_000006 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPHEP_000006">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPHEP_000003"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OPHEP_disturbance_of"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MF_0000067"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Loss of object stability and salience in the field of awareness </obo:IAO_0000115>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sass, LA and Parnas, J (2003). Schizophrenia, Consciouness, and the Self. Schizophrenia Bulletin, vol. 29, No. 3.</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disturbed grip of cognitive-perceptual world</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPHEP_000007 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPHEP_000007">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPHEP_000003"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OPHEP_disturbance_of"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MF_0000067"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Loss of experience of ego boundaries, in a higher level of self-other demarcation. </obo:IAO_0000115>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fuchs, T (2015) Pathologies of Intersubjectivity in Autism and Schizophrenia. Journal of Consciousness Studies, 22, No. 1-2, pp 191- 214</obo:IAO_0000119>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An inability to discriminate Self from not-Self, directed from a failure in non-reflexive self-awareness (Sass, Parnas 2001)</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">transitivism</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPHEP_000008 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPHEP_000008">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPHEP_000003"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OPHEP_disturbance_of"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MF_0000067"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A splitting of the Self into an observing and observed ego, neither of each assuming ipseity function.</obo:IAO_0000115>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ich-Spaltung</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">doubling of the Self</obo:IAO_0000118>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Parnas, J. &amp; and Sass, L.A. (2001). Self, Solipsism and Schizophrenic Delusions. PPP, vol. 8, no. 2-3.</obo:IAO_0000119>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">May be felt as a form of inner struggle between the good and evil &quot;parts&quot; and communicated on the &quot;as if&quot; metaphor.</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">splitting of the self</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPHEP_000009 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPHEP_000009">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPHEP_000003"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OPHEP_disturbance_of"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MF_0000067"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Inexplicable sense of being unable to mantain a consistent grasp on reality.</obo:IAO_0000115>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ratlösigkeit</obo:IAO_0000118>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sass, LA and Parnas, J (2003). Schizophrenia, Consciouness, and the Self. Schizophrenia Bulletin, vol. 29, No. 3.</obo:IAO_0000119>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A disturbed grip on reality is another feature of schizophrenia as a self-disorder.</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">perplexity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPHEP_000010 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPHEP_000010">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPHEP_000001"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OPHEP_disturbance_of"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MF_0000079"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Loss of the ability to resonate with the world, to empathize with others and become affected.</obo:IAO_0000115>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Parnas J. (2011). A disappearing heritage: the clinical core of schizophrenia. Schizophrenia Bulletin, vol. 37, no. 6, pp. 1121-1130.</obo:IAO_0000119>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">It is a prereflective immersion in the intersubjective world. Related to &quot;élan vital&quot; (Bergson) and &quot;common sense&quot; (Blankenburg).</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">loss of vital contact with reality</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPHEP_000011 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPHEP_000011">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPHEP_000003"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OPHEP_disturbance_of"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MF_0000079"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An inadequate basic prereflective attunement between the person and the world, resulting in a lack of immersion in the world.</obo:IAO_0000115>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">autism</obo:IAO_0000118>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Parnas J. (2011). A disappearing heritage: the clinical core of schizophrenia. Schizophrenia Bulletin, vol. 37, no. 6, pp. 1121-1130.</obo:IAO_0000119>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A direct result from the loss of vital contact with reality. Related to &quot;loss of vital contact&quot; (Minkowski).</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lack of immersion</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPHEP_000012 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPHEP_000012">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPHEP_000003"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OPHEP_disturbance_of"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MF_0000079"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The principle of withdrawal and returning to oneself. </obo:IAO_0000115>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fuchs, T (2017) Time and Events: On the Phenomenology of Temporal Experience in Schizophrenia (Ancillary Article to EAWE Domain 2)</obo:IAO_0000119>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A pathological personal disposition first described by Kretschmer, also used by Bleuler in a nonmorbid way as a vital principle of life. It is also employed by Minkowski. Fuchs uses this notion here to introduce his psychopathological description of temporality in Schizophrenia. Such link is established by the relation of schizodia, in oposition to syntonia for Bleuler (and, in a pathological way, to cycloidia for Kretschmer), with a private and unshared vital rythm.</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">schizoidia</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPHEP_000013 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPHEP_000013">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPHEP_000003"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OPHEP_disturbance_of"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MF_0000079"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Loss of the excentric position (third person, self-other metaperspective), being unable to relativize or question their feeling of centrality and reference while still able to take other&apos;s perspective, doing so excessively.</obo:IAO_0000115>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fuchs, T (2015) Pathologies of Intersubjectivity in Autism and Schizophrenia. Journal of Consciousness Studies, 22, No. 1-2, pp 191- 214</obo:IAO_0000119>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A classical term with a new definition in terms of intersubjectivity. Should be put against classical definitions such as Jaspers&apos; &quot;Delusions are relational phenomena, precisely because they escape our attempts towards understanding; they manifest themselves through the negation of the established order of sense by which we aim to grasp them. By virtue of this negation, however, delusions also remain related to the others.&quot;</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">delusion</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPHEP_000014 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPHEP_000014">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPHEP_000001"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OPHEP_disturbance_of"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MF_0000078"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Weakening of basic sense of self, disruption of implicit body functioning and disconection of intercorporeality with others. </obo:IAO_0000115>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fuchs, T (2015) Pathologies of Intersubjectivity in Autism and Schizophrenia. Journal of Consciousness Studies, 22, No. 1-2, pp 191- 214</obo:IAO_0000119>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Related to disturbance of ipsiety (Sass &amp; Parnas, 2003). It is anaysed in three aspects in its original article formulation. The main disorder of schizophrenia for Fuchs.</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disembodiment</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPHEP_000015 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPHEP_000015">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPHEP_000003"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OPHEP_disturbance_of"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MF_0000078"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Diminished self-awareness of one&apos;s own lived body (Leib). </obo:IAO_0000115>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fuchs, T. &amp; Schlimme, J. (2009) Embodiment and psychopathology: A phenomenological perspective, Current Opinion in Psychiatry, 22, pp. 570–575. </obo:IAO_0000119>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Related to diminished self-affection (1.2) (Sass &amp; Parnas, 2003). Fuchs also puts it as &quot;loss of vital, embodied contact with reality&quot; (Minkowski&apos;s terms) or a general feeling of being alien to the world. Can be seen in phenomena such as cenestopathic sensations and feelings of alienation of one&apos;s own body. Mostly explored in the EASE interview.</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disembodiment of self</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPHEP_000016 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPHEP_000016">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPHEP_000003"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OPHEP_disturbance_of"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MF_0000078"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Loss of automatic processing of perceptual and motor schemes.</obo:IAO_0000115>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fuchs, T. &amp; Schlimme, J. (2009) Embodiment and psychopathology: A phenomenological perspective, Current Opinion in Psychiatry, 22, pp. 570–575. </obo:IAO_0000119>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This leads to a pathological explication of implict bodily functions, such as inability to recognize familiar objects and disautomation. Related to &quot;passive synthesis&quot;</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disembodiment of perception and action </rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPHEP_000017 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPHEP_000017">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPHEP_000003"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OPHEP_disturbance_of"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MF_0000078"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">When the lived body loses the practical knowledge of how to relate with others and understand them in a common situation.</obo:IAO_0000115>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fuchs, T. &amp; Schlimme, J. (2009) Embodiment and psychopathology: A phenomenological perspective, Current Opinion in Psychiatry, 22, pp. 570–575. </obo:IAO_0000119>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Related to &quot;crisis of common sense&quot;</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disembodiment of intercorporeality</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPHEP_000018 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPHEP_000018">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPHEP_000003"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OPHEP_disturbance_of"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MF_0000079"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Loss of the usual understandability of a self/subject and world/object distinction.</obo:IAO_0000115>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">loss of natural evidence</obo:IAO_0000118>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">naturälichen Selbstverstandlichkeit</obo:IAO_0000118>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sass, LA and Parnas, J (2003). Schizophrenia, Consciouness, and the Self. Schizophrenia Bulletin, vol. 29, No. 3.</obo:IAO_0000119>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Also: &quot;loss of natural evidence&quot;. Close to &quot;common sense&quot; (Blankenburg).</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">loss of natural self-understandability</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPHEP_000019 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPHEP_000019">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPHEP_000003"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OPHEP_disturbance_of"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MF_0000079"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Loss of the ability to see things in the appropriate perspective, in an implicit nonceptual grip of the rules of the game.</obo:IAO_0000115>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">autism</obo:IAO_0000118>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Parnas J. (2011). A disappearing heritage: the clinical core of schizophrenia. Schizophrenia Bulletin, vol. 37, no. 6, pp. 1121-1130.</obo:IAO_0000119>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">It&apos;s a preunderstanding of context and background, a necessary condition for the grasp of objects, others and situations. Autism can be seen as a crisis of common sense. It&apos;s result is an intense hyperreflectivity.</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">crisis of common sense</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPHEP_000020 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPHEP_000020">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPHEP_000003"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OPHEP_disturbance_of"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MF_0000079"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A sense of being outside the usual customs and concerns of the shared world.</obo:IAO_0000115>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sass, L (2001). Self and World in schizophrenia: three classic approaches. PPP, vol. 8, no. 4.</obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">alienation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPHEP_000021 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPHEP_000021">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPHEP_000003"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OPHEP_disturbance_of"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MF_0000079"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A fundamental transformation of the person&apos;s worldview, in which a paradoxical mixture of increasing subjectivization of the world and self-dissolution takes place.</obo:IAO_0000115>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Parnas, J. &amp; and Sass, L.A. (2001). Self, Solipsism and Schizophrenic Delusions. PPP, vol. 8, no. 2-3.</obo:IAO_0000119>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The schizophrenic experiences phenomena which are beyond commonsensical metaphysics, often revolving centrality, such as: &quot;I can&apos;t imagine the world not being represented by me&quot;. Further on, this feeling can be transformed into &quot;bizarre delusions&quot; (defined as &quot;physically impossible&quot;).</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">solipsism</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPHEP_000022 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPHEP_000022">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPHEP_000001"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OPHEP_disturbance_of"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MF_0000067"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">When a person is deprived from understanding reality by its everyday existence (zufälliges Sosein) in order to be capture overly by its essences (Wesensein).</obo:IAO_0000115>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">loss of zufälliges Sosein</obo:IAO_0000118>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cutting, J. First rank symptoms of schizophrenia: their nature and origin. History of Psychiatry 2015, Vol. 26(2) 131–146</obo:IAO_0000119>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">In balance, the schizophrenic is overly captured by the essence of everything in his world (Wesensein), loosing his ability to feel a sense of uniqueness, myness and so on. Closely related to loss of &quot;commom sense&quot; (Blankenburg) or &quot;vital contact with reality&quot; (Minkowski).</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">loss of accidental being-so</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPHEP_000023 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPHEP_000023">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPHEP_000003"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OPHEP_disturbance_of"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MF_0000067"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Experiences of losing one&apos;s agency over one&apos;s body, thoughts and actions, due to a porousness of the I-world boundaries.</obo:IAO_0000115>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cutting J, Musalek M. The nature of delusion: psychologically explicable? psychologically inexplicable? philosophically explicable? Part 2. History of Psychiatry. 2016;27(1):21-37.</obo:IAO_0000119>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Experienced as (1) bodily passivity, (2) thought insertion, (3) thought broadcasting, (4) thought withdrawal and (5) feelings, (6) drives and (7) actions with an alien quality. Characterized by a loss of myness.</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">delusion of control</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPHEP_000024 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPHEP_000024">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPHEP_000003"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OPHEP_disturbance_of"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MF_0000067"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hallucinations of voices that blurres external and internal space, in an anomalous spatial disposition.</obo:IAO_0000115>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">verbal-acoustic hallucination</obo:IAO_0000118>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cutting, J. First rank symptoms of schizophrenia: their nature and origin. History of Psychiatry 2015, Vol. 26(2) 131–146</obo:IAO_0000119>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hallucinations of (1) voices speaking aloud (thought echo), (2) arguing on the subject in the third person, or (3) commenting one&apos;s action. Characterized by a loss of whereness.</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">auditory hallucination</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPHEP_000025 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPHEP_000025">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPHEP_000003"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OPHEP_disturbance_of"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MF_0000067"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The individual denies the identity of someone or something, but deems the misidentification object one of several extant identical instances.</obo:IAO_0000115>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cutting, J. First rank symptoms of schizophrenia: their nature and origin. History of Psychiatry 2015, Vol. 26(2) 131–146</obo:IAO_0000119>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Examples are Capgras syndrome (a known person was replaced by an impostor) and Personenverkennung (a known person&apos;s knownness was denied or an unknown person was deemed known). Characterized by a loss of thisness, whoness and whoseness.</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">delusional misidentification</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPHEP_000026 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPHEP_000026">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPHEP_000003"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OPHEP_disturbance_of"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MF_0000067"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Specific anomalous experiences of time, in which the entire temporal structure of experience is broken.</obo:IAO_0000115>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cutting, J. First rank symptoms of schizophrenia: their nature and origin. History of Psychiatry 2015, Vol. 26(2) 131–146</obo:IAO_0000119>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Such as clock time unreliable, time stopping, sense of time being awry and dissolving of temporality itself. Characterized by a loss of whenness.</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">anomalous perception of time</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPHEP_000027 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPHEP_000027">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPHEP_000003"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OPHEP_disturbance_of"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MF_0000078"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">When some abnormal significance, usually with self-reference, is attached to a genuine perception without any comprehensible rational or emotional justification.</obo:IAO_0000115>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jansson, L (2019). First-Rank Symptoms of Schizophrenia. In: The Oxford Handbook of Phenomenological Psychopathology. Edited by: Stanghellini et al. Oxford Press.</obo:IAO_0000119>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">It&apos;s derived from a delusional atmosphere termed &quot;delusional tension&quot; (Gruhle), &quot;preparatory field&quot; (Schneider) or &quot;trema&quot; (Conrad).</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">delusional perception</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPHEP_000028 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPHEP_000028">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPHEP_000001"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OPHEP_disturbance_of"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MF_0000067"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Alteration in the way in which basic mental acts meaningfully combine into more complex units.</obo:IAO_0000115>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Assoziationsstörung</obo:IAO_0000118>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Maatz A, Hoff P, Angst J. Eugen Bleuler&apos;s schizophrenia--a modern perspective. Dialogues Clin Neurosci. 2015;17(1):43-49. </obo:IAO_0000119>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The only symptom Bleuler regarded as both basic and primary. Not the same as &quot;formal thought disorder&quot;.</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disturbance of association</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPHEP_000029 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPHEP_000029">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPHEP_000003"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OPHEP_disturbance_of"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MF_0000067"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Simultaneous presence of contradictory ideas and emotions.</obo:IAO_0000115>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Maatz A, Hoff P, Angst J. Eugen Bleuler&apos;s schizophrenia--a modern perspective. Dialogues Clin Neurosci. 2015;17(1):43-49. </obo:IAO_0000119>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ambivalence</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPHEP_000030 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPHEP_000030">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPHEP_000003"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OPHEP_disturbance_of"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MF_0000067"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Detachment from reality associated with rich fantasy life (predominant of the inner life).</obo:IAO_0000115>
+        <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">autism</obo:IAO_0000118>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Parnas J. (2011). A disappearing heritage: the clinical core of schizophrenia. Schizophrenia Bulletin, vol. 37, no. 6, pp. 1121-1130.</obo:IAO_0000119>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The direct result is a reduction of communication. See: &quot;autism as lack of immersion&quot; and &quot;autism as crisis of common sense&quot;.</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">withdrawal to fantasy life</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPHEP_000031 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPHEP_000031">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPHEP_000003"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OPHEP_disturbance_of"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MF_0000067"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Destruction of the psychic personality&apos;s inner integrity, whereby emotion and volition in particular are impaired.</obo:IAO_0000115>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Parnas and Sass (2001). Self, Solipsism and Schizophrenic Delusions. PPP, vol. 8, no. 2-3.</obo:IAO_0000119>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">By then, it was related to Kraepelin&apos;s &quot;dementia praecox&quot;, rather than properly &quot;schizophrenia&quot;. Also: &quot;orchestra without a conductor&quot;.</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disunity of consciousness</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPHEP_000032 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPHEP_000032">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPHEP_000001"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OPHEP_disturbance_of"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MF_0000079"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Disturbance at the &quot;between&quot; of interpersonal realtions, not being able to relate to others as an &quot;absolute Other&quot;, not being able to constitute a true self.</obo:IAO_0000115>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kimura Bin (1992). Réflexion et soi chez le schizophrène. In Écrits de Psychopathologie Phénoménologique, ed. Yves Pélicier, trans. Joël Bouderlique. Paris: Presses Universitaires de France.</obo:IAO_0000119>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This is grounded in Kitaro Nishida&apos;s notion of a relation to an &quot;absolute Other&quot;, which the author links to Kierkegaard&apos;s notion of &quot;God&quot; and &quot;absolute being&quot;.</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disturbance of the aïda</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPHEP_000033 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPHEP_000033">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPHEP_000003"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OPHEP_disturbance_of"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MF_0000079"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The reciprocal experience of one self and &quot;non-self (hi-jiko)&quot; in a non-natural situation.</obo:IAO_0000115>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kimura Bin (1992). Réflexion et soi chez le schizophrène. In Écrits de Psychopathologie Phénoménologique, ed. Yves Pélicier, trans. Joël Bouderlique. Paris: Presses Universitaires de France.</obo:IAO_0000119>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Similar to Blankenburg&apos;s feeling of alienation. Also described as the patient&apos;s feeling related to what Rümke described as praecox feeling (praecox Gefühl).</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">reversed praecox feeling</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPHEP_000034 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPHEP_000034">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPHEP_000001"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OPHEP_disturbance_of"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MF_0000079"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Loss of the priciple of the individual&apos;s activity that establishes a self (&quot;I&quot;) in relation to the other (&quot;You&quot;). </obo:IAO_0000115>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kimura Bin (1992). Pathologie du soi chez le schizophréne. In: Revue philosophique de la France et de l&apos;étranger. 2017; 1(142); pp. 63-82.</obo:IAO_0000119>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">For Kronfeld, and individual must became a self to be a person. This is done by the apparition of an other (as a 2nd person, &quot;toi&quot;), constituing a virtual transcedental community of &quot;We&quot; (metakoinon). Related to Kitaro Nishida&apos;s jikaku (auto-perception).</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">loss of the person</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPHEP_000035 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPHEP_000035">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPHEP_000001"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OPHEP_disturbance_of"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MF_0000079"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Impossibility of developing the virtual potency of the fundamental relation between a subject and life itself. </obo:IAO_0000115>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kimura Bin (1992). Pathologie du soi chez le schizophréne. In: Revue philosophique de la France et de l&apos;étranger. 2017; 1(142); pp. 63-82.</obo:IAO_0000119>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This is termed by Kimura Bin after using Weizsacker&apos;s notions of subjectivity, life, Umwelt, coherence and crisis. </rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pathology of the fundamental relation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/OPHEP_000036 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OPHEP_000036">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OPHEP_000003"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/OPHEP_disturbance_of"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/MF_0000072"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Existential orientation towards the future, in the sense of becoming oneself or project (Entwurf), that is constitutive of schizophrenic experience.</obo:IAO_0000115>
+        <obo:IAO_0000119 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kimura Bin (1976). Bunretsubyo no jikanron (Temporalidade na esquizofrenia). In: Jiko-Aïda-Jikan, Tokyo, Kobundo, 1981, pp. 122-146. Avaible in portuguese.</obo:IAO_0000119>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Kimura was inspired by Gabel&apos;s definition of the proletariat conscience as ante festum, in oposition to G. Lukács post festum bourgeois conscience. He relates this to Daseinsanalytical notion of Existentiality and develops his argument with clinical and literary examples, but also pointing a proximity with Binswanger&apos;s anthropological proportions as in extravagance. This temporal orientation is not exclusive to schizophrenia, but is structural in schizophrenic phenomena.</rdfs:comment>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ante festum orientation</rdfs:label>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.6) https://github.com/owlcs/owlapi -->
+
