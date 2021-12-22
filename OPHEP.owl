@@ -16,9 +16,9 @@
      xmlns:ace_lexicon="http://attempto.ifi.uzh.ch/ace_lexicon#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/OPHEP.owl">
         <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/2021-12-22/OPHEP.owl"/>
-        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/OPHEP.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/MF/2021-11-17/MF.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/MFOMD/2020-04-26/MFOMD.owl"/>
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/OPHEP/ophep-template.owl"/>
         <dc:contributor>Guilherme Messas</dc:contributor>
         <dc:contributor>Janna Hastings</dc:contributor>
         <dc:contributor>Luca Fasciolo Maschião</dc:contributor>

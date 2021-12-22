@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+    <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/MFOMD/2020-04-26/MFOMD.owl" uri="http://purl.obolibrary.org/obo/MFOMD.owl"/>
+    <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/MF/2021-11-17/MF.owl" uri="http://purl.obolibrary.org/obo/MF.owl"/>
+    <group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base="">
+        <uri id="Automatically generated entry, Timestamp=1640169587744" name="http://purl.obolibrary.org/obo/OPHEP.owl" uri="OPHEP.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1640169587744" name="http://purl.obolibrary.org/obo/OPHEP/ophep-template.owl" uri="src/ontology/ophep-template.owl"/>
+    </group>
+</catalog>
