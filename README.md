@@ -11,11 +11,13 @@ Current contributors to this effort include Janna Hastings, Rasmus Rosenberg Lar
 To **view the ontology**, download this repository and open the file `OPHEP.owl` in the [Protégé](https://protege.stanford.edu/) ontology editing tool. 
 
 
-## Contributing to the ontology development
+## Contributing to the ontology
 
 There are several ways to **contribute** to the development of this ontology.  
 
-If you would like specific content added, either create an *Issue* in this repository with details of the specific requests, or if you are already familiar with the structure and content of the ontology you can suggest additions directly to specific .csv files in the *src/templates* folder with a pull request. 
+If you would like specific content added or changed, either create an *Issue* in this repository with details of the specific requests, or if you are already familiar with the structure and content of the ontology you can suggest additions directly to specific .csv files in the *src/templates* folder with a pull request. 
+
+To join the discussion about the entities and the further development of the ontology, get in touch with the developers. 
 
 ## Publications
 
