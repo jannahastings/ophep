@@ -6,9 +6,16 @@ The project is being developed using the BFO upper level ontology and following 
 
 Current contributors to this effort include Janna Hastings, Rasmus Rosenberg Larsen, Guilherme Messas, Valter Piedade, Luca Fasciolo Maschião. 
 
+## Viewing the ontology
+
 To **view the ontology**, download this repository and open the file `OPHEP.owl` in the [Protégé](https://protege.stanford.edu/) ontology editing tool. 
 
-To **contribute**, either create an Issue with specific requests, or suggest additions in the *templates* folder. 
+
+## Contributing to the ontology development
+
+There are several ways to **contribute** to the development of this ontology.  
+
+If you would like specific content added, either create an *Issue* in this repository with details of the specific requests, or if you are already familiar with the structure and content of the ontology you can suggest additions directly to specific .csv files in the *src/templates* folder with a pull request. 
 
 ## Publications
 
