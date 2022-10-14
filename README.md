@@ -22,11 +22,13 @@ To join the discussion about the entities and the further development of the ont
 ## Publications
 
 
-Larsen, R. R., & Hastings, J. (2018). From affective science to psychiatric disorder: Ontology as a semantic bridge. Frontiers in psychiatry, 9(487). doi:10.3389/fpsyt.2018.00487
-
-Larsen, R. R., & Hastings, J. (2020). Mapping the patient’s experience: An applied ontological framework for phenomenological psychopathology. Phenomenology and Mind, 18, 200-219. doi:10.17454/pam-1815
+Larsen, R. R., Maschião, L. F.,  Piedade, V. L.,  Messas, G. & Hastings, J. (2022)  More phenomenology in psychiatry? Applied ontology as a method towards integration.  Lancet Psychiatry  Volume 9, ISSUE 9, P751-758. DOI:https://doi.org/10.1016/S2215-0366(22)00156-0
 
 Hastings, J., & Larsen, R. R. (2021). Integrative paradigms for knowledge discovery in mental health: Overcoming the fragmentation of knowledge inherent in disparate theoretical paradigms. In J. D. Tenenbaum & P. A. Ranallo (Eds.), Mental Health Informatics: Enabling a Learning Mental Healthcare System (pp. 295-316). Cham: Springer International Publishing.
 
+Larsen, R. R., & Hastings, J. (2020). Mapping the patient’s experience: An applied ontological framework for phenomenological psychopathology. Phenomenology and Mind, 18, 200-219. doi:10.17454/pam-1815
+
+
+Larsen, R. R., & Hastings, J. (2018). From affective science to psychiatric disorder: Ontology as a semantic bridge. Frontiers in psychiatry, 9(487). doi:10.3389/fpsyt.2018.00487
 
 
